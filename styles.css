@@ -1,0 +1,86 @@
+/* Page background */
+body {
+  background-color: #ffe5e5; /* faint red */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+}
+
+/* A4-like container */
+.a4-container {
+  background-color: white;
+  width: 21cm;
+  height: 29.7cm;
+  padding: 2cm;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Home button */
+.home-button {
+  background-color: #cc0000;
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  align-self: flex-start;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+/* Title */
+.title {
+  color: darkred;
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+/* Story inside title */
+.story {
+  display: block;
+  font-size: 16px;
+  color: #333;
+  margin-top: 10px;
+}
+
+/* ID selector */
+#intro {
+  color: #222;
+  background-color: #f9f9f9;
+  padding: 15px;
+  border: 2px dashed #c00;
+  margin: 20px 0;
+}
+
+/* Paragraphs */
+p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+/* Image styling */
+.my-image {
+  display: block;
+  width: 200px;
+  margin: 0 auto 20px auto;
+  border: 4px solid #900;
+  padding: 5px;
+  border-radius: 8px;
+}
+
+/* Footer styling */
+.footer {
+  text-align: center;
+  padding: 10px;
+  font-weight: bold;
+  color: #222;
+  border-top: 1px solid #ccc;
+}
